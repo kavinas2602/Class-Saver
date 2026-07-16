@@ -39,7 +39,7 @@ nav h1{
     font-size:40px;
 }
 
-nav button{
+.profile{
     padding: 10px 20px;
     background-color:white;
     color:#2196f3;
@@ -47,6 +47,7 @@ nav button{
     cursor:pointer;
     transition:0.3s ease-in-out;
     border:none;
+    text-decoration:none;
 
 }
 nav button:hover{
