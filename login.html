@@ -7,6 +7,8 @@
 
 
         <link rel="stylesheet" href="css/login.css">
+
+        <script src="login.js"></script>
     </head>
 
     <body>
@@ -16,7 +18,7 @@
             <p>Welcome Back</p>
             <p>Sign in to your account</p>
 
-            <form>
+            <form  id="loginForm">
                 <label for="email">Email</label>
                 <input 
                     type="email" 
@@ -33,7 +35,7 @@
                     placeholder="Enter your password"
                     required>
 
-                <button type="submit">Sign in</button>
+                <button id="loginbutton" type ="submit">Sign in</button>
                 
                 <p id="forgot">
                     <a href="forgotpassword.html">

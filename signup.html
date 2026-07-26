@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial scale=1.0">
-        <title>ClassSaver Login</title>
+        <title>ClassSaver SignUp</title>
 
 
         <link rel="stylesheet" href="css/login.css">
@@ -16,7 +16,16 @@
             <p>Create account</p>
             
 
-            <form>
+            <form id="signupForm">
+                
+                <label for="name">Name</label>
+                <input 
+                    type="text"
+                    id="name" 
+                    name="name"
+                    placeholder="Enter your Name"
+                    required>
+                
                 <label for="email">Email</label>
                 <input 
                     type="email" 
@@ -42,16 +51,14 @@
                     required>
 
 
-                <button type="submit">Create Account</button>
+                <button id = "signupBtn" type="submit">Create Account</button>
                 
-                <p id="Already have an account?">
-                    <a href="login.html"></a>
+                <p id="login">
+                    Already have an account?
+                    <a href="login.html">Login</a>
                 </p>
                 
-                <p id="signup">
-                    Don't have an account?
-                    <a href="Signup.html">Sign Up</a>
-                </p>
+                
                 
                 <p class="approval">
                     New accounts require approval from admin before you can log in.
