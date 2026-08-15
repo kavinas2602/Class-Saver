@@ -46,7 +46,9 @@ const newUser ={
 
     email: email,
 
-    password: password
+    password: password,
+
+    role: "student"
 
 
 
