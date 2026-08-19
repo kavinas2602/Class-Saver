@@ -146,3 +146,85 @@ header h1 {
 .homework-card small {
     color: #aaa;
 }
+
+#addHomeworkForm{
+    display:none;
+    background-color: #1A1A1A;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+#addHomeworkForm h2 {
+    margin-bottom: 25px;
+}
+
+#homeworkForm{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+#homeworkForm label{
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+    margin-bottom:3px;
+}
+
+#homeworkForm input,
+#homeworkForm textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:12px;
+    font-size:16px;
+    border:1px solid rgb(80,79,79);
+    border-radius:8px;
+    background-color: #2b2b2b;
+    color:white;
+}
+
+#homeworkForm textarea{
+    min-height:120px;
+    resize:vertical;
+
+}
+
+#homeworkForm input:focus,
+#homeworkForm textarea:focus{
+    outline:none;
+    border-color:#2196f3;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form-buttons button {
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-buttons button[type="submit"] {
+    background-color: #2196f3;
+    color: #1A1A1A;
+}
+
+.form-buttons button[type="submit"]:hover {
+    background-color: skyblue;
+}
+
+#cancelBtn {
+    background-color: #333;
+    color: whitesmoke;
+    border: 1px solid rgb(80, 79, 79);
+}
+
+#cancelBtn:hover {
+    background-color: #444;
+}
