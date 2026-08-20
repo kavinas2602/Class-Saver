@@ -10,5 +10,16 @@ if(currentUser.role== "student"){
     addHomeworkBtn.style.display="none";
 }
 addHomeworkBtn.addEventListener("click",function(){
-    window.location.href="add-homework.html";
+    addHomeworkForm.style.display="block";
+});
+
+cancelBtn.addEventListener("click",function() {
+    addHomeworkForm.style.display="none";
+});
+
+const homeworkForm = document.getElementById("homewworkForm");
+
+homeworkForm.addEventListener("submit",function(event){
+    event.preventDefault();
+    alert("homework saved");
 });
